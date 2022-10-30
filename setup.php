@@ -16,7 +16,7 @@ ini_set('error_reporting', 0);
 // 6) define("BASE_URL", "https://www.riturajps.in/");
 
 //=============== CHANGE Me Carefully Start =======================//
-define("BASE_URL", "http://localhost/switchurl/");
+define("BASE_URL", "https://switchurl.herokuapp.com/");
 //=============== CHANGE Me Carefully End  =======================//
 
 //=============== CHANGE Me Carefully Start =======================//
