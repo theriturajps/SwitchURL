@@ -1,6 +1,6 @@
 # SwitchURL
 
-
+![alt text](./img/SwitchURL_riturajps.in_.jpg)
 
 This script is very very simple to setup
 
