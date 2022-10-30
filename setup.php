@@ -49,7 +49,7 @@ define("WRONG_MESSAGE", "Please Use Correct Domain to Switch URL") ;
 define("URL_LENGTH", "6") ;
 
 // Delay (In Seconds) on advertising page and after redirect users to Original URL ==> For No Delay set 0 [zero] seconds
-define("DELAY_SECONDS", "60") ;
+define("DELAY_SECONDS", "10") ;
 
 // Delay Message to users
 define("DELAY_MESSAGE", "Please Wait ! Redirecting to Original Link...") ;
