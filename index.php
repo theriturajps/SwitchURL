@@ -8,6 +8,11 @@ include("setup.php") ;
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
 	<title><?php echo META_SITE_TITLE ; ?></title>
+   <!-- Name:SwitchURL | Version:1.0 | Date:October 30,2022 | Type:Premium | Designer:@RituRajPS | Website:https://www.riturajps.in
+        NOTE :This theme is premium (paid).
+              You can only get it by purchasing officially.
+              If you get it for free through any method,
+              that means you get it illegally.-->
 	<meta property="og:title" content="<?php echo META_SITE_TITLE ; ?>" />
 	<meta property="og:description" content="<?php echo META_SITE_DESCRIPTION ; ?>" />
 	<link href="<?php echo BASE_URL ; ?>css/bootstrap.min.css" rel="stylesheet">
