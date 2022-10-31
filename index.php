@@ -18,31 +18,23 @@ include("setup.php") ;
 <body class="bg-dark">
 	<div class="container">
 		<div class="row">
-
-
       <!-- Desktop AD 300 x 600 Pixel ==> Left Side AD Start-->
-
       <div class="col-lg-3 mt-5 d-none d-sm-none d-md-block d-lg-block">
             <?php include("ad_desktop_leftside.php") ; ?>
       </div>
-
       <!-- Desktop AD 300 x 600 Pixel End-->
-
       <div class="col-lg-6 text-white justify-content-center text-center mt-5">
-
         <div class="col-lg-12 object">
           <h1 class="text-warning"><?php echo INDEX_HEADING ; ?></h1>
         </div>
         <div class="col-lg-12  mt-n16">
           <i class="bi bi-link textShadow verybigFont text-primary"></i>
         </div>
-
         <!-- Mobile AD 300 x 50 Pixel Start-->
         <div class="col-lg-12 d-md-none me-5 mt-n8">
               <?php include("ad_mobile.php") ; ?>
         </div>
         <!-- Mobile AD 300 x 50 Pixel Start-->
-
         <div class="col-lg-12">
           <div class="card bg-dark newShadow">
             <div class="card-body bg-dark">
@@ -59,20 +51,15 @@ include("setup.php") ;
             </div>
           </div>
         </div>
-
       </div>
-
       <!-- Desktop AD 300 x 600 Pixel ==> Right Side AD Start-->
-
       <div class="col-lg-3 mt-5 d-none d-sm-none d-md-block d-lg-block">
             <?php include("ad_desktop_rightside.php") ; ?>
       </div>
-
       <!-- Desktop AD 300 x 600 Pixel End-->
-      <div class="bg-dark customTopBorder text-muted text-center fixed-bottom p-2"><span>Copyright &copy; <?php echo date("Y"); ?> <b class="text-white"><?php echo COPYRIGHT_NAME ; ?></b> . All Rights Reserved<br/>Buy this script from <a href="https://switchurl.riturajps.in"><?php echo OWNER_NAME ; ?></a></span></div>
+      <div class="bg-dark customTopBorder text-muted text-center fixed-bottom p-2"><span>Copyright &copy; <?php echo date("Y"); ?> <b class="text-white"><?php echo COPYRIGHT_NAME ; ?></b> . All Rights Reserved<br/>Buy this script from <a href="https://telegram.me/riturajps"><?php echo OWNER_NAME ; ?></a></span></div>
     </div>
 	</div>
-
   <script src="<?php echo BASE_URL ; ?>js/jquery.min.js" ></script>
   <script src="<?php echo BASE_URL ; ?>js/popper.min.js" ></script>
   <script src="<?php echo BASE_URL ; ?>js/bootstrap.min.js"></script>
@@ -80,11 +67,9 @@ include("setup.php") ;
   <script type="text/javascript" src="<?php echo BASE_URL ; ?>js/custom.js" ></script>
   <script>
       var clipboard = new ClipboardJS('.btn');
-
       clipboard.on('success', function (e) {
         console.log(e);
       });
-
       clipboard.on('error', function (e) {
         console.log(e);
       });
